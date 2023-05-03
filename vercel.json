@@ -5,7 +5,7 @@
     },
   "functions": {
     "api/**/*.{js,ts}": {
-      "runtime": "@vercel/node@1.9.1"
+      "runtime": "@vercel/node"
     }
   },
   "builds": [
