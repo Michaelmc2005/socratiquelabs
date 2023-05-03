@@ -1,4 +1,11 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
     "engines": 
     {
       "node": "16.13.0"
@@ -23,4 +30,7 @@
       "dest": "/build/$1"
     }
   ]
+  
+  
 }
+
